@@ -18,6 +18,8 @@ int percent_handle(const char *, va_list, int *);
 int format_string(va_list);
 int format_char(va_list);
 int format_integer(va_list);
+int format_unsigned(va_list);
+int format_binary(va_list);
 
 /*utulities*/
 
