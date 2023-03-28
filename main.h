@@ -20,6 +20,9 @@ int format_char(va_list);
 int format_integer(va_list);
 int format_unsigned(va_list);
 int format_binary(va_list);
+int format_hexadecimal_low(va_list);
+int format_hexadecimal_upp(va_list);
+int format_octal(va_list);
 
 /*utulities*/
 
