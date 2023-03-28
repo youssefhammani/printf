@@ -26,6 +26,7 @@ int format_octal(va_list);
 int format_rot(va_list);
 int format_pointer(va_list);
 int format_rv_str(va_list);
+int handle_S(char *str);
 
 /*utulities*/
 
