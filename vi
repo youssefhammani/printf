@@ -1,0 +1,21 @@
+#include <unistd.h>
+
+/**
+ * write_buffer - Write a string to a buffer
+ * @buffer: The buffer to write to
+ * @size: The size of the buffer
+ * @str: The string to write
+ *
+ * Return: The number of characters written
+ */
+int write_buffer(char *buffer, int size, char *str)
+{
+    int count = 0;
+
+    while (*str != '\0' && count < size) {
+        *buffer++ = *str++;
+        count++;
+    }
+
+    return count;
+}
