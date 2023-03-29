@@ -46,6 +46,10 @@ int percent_handle(const char *ptr, va_list list, int *i)
 	format formats[] = {
 		{'s', format_string}, {'c', format_char},
 		{'d', format_integer}, {'i', format_integer},
+		{'b', format_binary}, {'u', format_unsigned},
+		{'o', format_octal}, {'x', format_hexadecimal_low},
+		{'X', format_hexadecimal_upp}, {'p', format_pointer},
+		{'r', format_rv_str}, {'R', format_rot},
 	};
 
 	*i = *i + 1;
