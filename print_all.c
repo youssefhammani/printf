@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * get_unsigned_integer_string - Get the string representation of an unsigned integer in the specified base
  * @value: The value to convert to a string
