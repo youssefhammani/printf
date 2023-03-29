@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * format_char - print character.
+ * format_char - print characters.
  * @list: va_list.
  *
  * Return: 1
